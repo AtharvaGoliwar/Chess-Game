@@ -1,5 +1,5 @@
 
-# Online Chess Game
+# Chess Game
 
 This is a simple Chess Game where two players can play a Chess game on a single client.
 
