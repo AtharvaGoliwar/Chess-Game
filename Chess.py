@@ -1012,7 +1012,7 @@ class chess():
         game_menu.add_cascade(label="Game Mode",menu=game_mode_menu)
         game_mode_menu.add_command(label="Rapid (10 Min)",command=self.game_mode_rapid)
         game_mode_menu.add_command(label="Bullet (1 Min)",command=self.game_mode_bullet)
-        game_mode_menu.add_command(label="30 Mins",command=self.game_mode_30)
+        game_mode_menu.add_command(label="Rapid (30 Mins)",command=self.game_mode_30)
         #game_menu.add_command(label="Game Mode")
         game_menu.add_command(label = "Change Board Color",command=self.color)
         game_menu.add_command(label="Exit",command=root.destroy)
