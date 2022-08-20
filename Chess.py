@@ -920,10 +920,10 @@ class chess():
                     self.coords[i][0].configure(text='',bg='#f0f0f0',activebackground='#f0f0f0')
 
     def time_grid(self):           #Function for maintaining the timer
-        self.time_hourw = 15
+        self.time_hourw = 10
         self.time_minw = 00
         self.time_minb = 00
-        self.time_hourb = 15
+        self.time_hourb = 10
         self.lab_white1 = Label(root,text=self.time_hourw)
         self.lab_white1.grid(row=8,column=9)
         self.lab_white2 = Label(root,text=":")
